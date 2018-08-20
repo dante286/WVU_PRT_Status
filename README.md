@@ -8,3 +8,6 @@ api.
 
 This shell script will eventually be run as part of a Jenkins job and
 email setup.  Emails can be sent when the status changes.
+
+Also refer to the following URL for the API documentation for the PRT
+status: https://prtstatus.wvu.edu/api/
