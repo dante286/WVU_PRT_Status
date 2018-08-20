@@ -8,9 +8,9 @@ then
 	echo "Status has changed"
 	echo "$diff_status"
 	mv index.html?format=json.1 index.html?format=json
-	exit 0
+	exit 1
 else
 	echo "Status has not changed"
 	rm index.html?format=json.*
-	return 0
+	exit 0
 fi
